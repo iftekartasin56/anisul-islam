@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rowspan,Colspan</title>
+    <style>
+        table,td,th{
+            border:2px solid black;
+        }
+        table{
+            border-collapse: collapse;
+            width: 300px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+   <div>
+    <table>
+        <thead>
+            <tr>
+                <th> ID</th>
+                <th>Name </th>
+                <th colspan="2"> Phone </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>101</td>
+                <td>Tasin</td>
+                <td>01876859428</td>
+                <td rowspan="3">01967474833</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Sakib</td>
+                <td>01987533522</td>
+                
+            <tr>
+                <td>103</td>
+                <td>Sayma</td>
+                <td>01324865448</td>
+            </tr>
+        </tbody>
+    </table>
+   </div>
+</body>
+</html>

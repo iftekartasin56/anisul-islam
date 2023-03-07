@@ -1,0 +1,10 @@
+body{
+    background-image: url("bu.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background: #fff url("bu.jpg") no-repeat fixed;*/
+    color:#E0C098;
+}
+h1{
+  text-align: center;  
+}

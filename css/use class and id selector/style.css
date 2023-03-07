@@ -1,0 +1,12 @@
+.heading-style{color:rgb(230, 239, 230); background-color: rgb(152, 13, 13);
+font-size: 30px; text-align: center;}
+#para-style{color:black; background-color:green;}
+.paragraph-style{color:rgb(250, 247, 252); text-align: justify; background-color: rgb(141, 112, 135); font-family: sans-serif;}
+body{background-color: rgb(15, 6, 6);}
+#section1{background-color: chartreuse;}
+#section1 h1{
+    color:red;
+}
+#section1 p{
+    color:crimson;
+}

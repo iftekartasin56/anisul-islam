@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form>
+        <div>
+            <label for="fullname">Full Name:</label><input type="text"name="fullname"id="fullname" required>
+        </div> <br>
+        <div>
+            <label for="emain">Email:</label><input type="email"name="email"id="email" required>
+        </div> <br>
+        <div>
+            <label for="passwod">Password:</label><input type="password"name="password"id="password">
+        </div><br>
+        <div>
+            <label for="dob">Date Of Birth:</label><input type="date"name="dob"id="dob">
+        </div><br>
+        <div>
+            <label for="photo">Choose Your Photo:</label><input type="file"name="photo"id="phot">
+        </div><br>
+        <div>
+            <label for="gender">Gender:</label><input type="radio"name="gender"id="gender" value="male"> Male
+            <input type="radio"name="gender"id="gender" value="female"> Female
+            <input type="radio"name="gender"id="gender" value="others"> Others
+        </div><br>
+        <div>
+            <label for="religion">Religion:</label><input type="checkbox"name="c1"id="muslim" value="male"> Muslim
+            <input type="checkbox"name="c1"id="hindu" value="hindu"> Hindu
+            <input type="checkbox"name="c1"id="" value="others"> Others
+        </div> <br>
+
+        <div>
+            <label for="department">Department:</label>
+            <select name="department" id="">
+                <option value="cse" selected>CSE</option>
+                <option value="eee">EEE</option>
+                <option value="ce">CE</option>
+                <option value="te">TE</option>
+                <option value="bba">BBA</option>
+                <option value="english">English</option>
+                <option value="mathematics">Mathematics</option>
+                <option value="llb">LLB</option>
+                <option value="pharmacy">Pharmacy</option>
+            </select>
+        </div>
+        <div>
+            <label for="message">Message</label><br>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <input type="submit" valule="Register">
+            <input type="reset" valule="clear">
+        </div>
+    </form>
+</body>
+</html>

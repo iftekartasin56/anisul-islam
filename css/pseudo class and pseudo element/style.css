@@ -1,0 +1,71 @@
+body{
+    background-color:indianred;
+}
+a.my-link:hover{
+    color: green;
+}
+input{
+    padding: 10px;
+    font-size: 15px;
+    width: 150px;
+}
+input:{
+    background-color: darkgreen;
+}
+input:focus{
+    background-color: darkgreen;
+}
+table,tr,td{
+    border: 1px solid black;
+}
+tr:nth-child(odd){
+    background-color: red;
+}
+p:hover{
+    color: green;
+}
+p::first-letter{
+    color:coral;
+    font-size: 3.5rem;
+}
+p::after{
+    content: ">";
+}
+p::before{
+    content: "";
+}
+.demo:hover{
+    background: black;
+    color: white;
+}
+.demo1:hover{
+    background-color: red;
+    color: white;
+}
+.demo p:nth-child(odd){
+    background-color: black;
+    color: white;
+}
+li:nth-child(odd){
+    background-color: burlywood;
+    color: blue;
+}
+li:first-of-type{
+    background-color: chocolate;
+    color: darkgreen;
+}
+::selection{
+    color: red;
+    background-color: black;
+}
+
+.demo1::before, .demo1::after{
+    content: '';
+    width: 100%;
+    height: 20px;
+    background-color:cadetblue;
+    display: inline-block;
+}
+input::placeholder{
+    color:black;
+}

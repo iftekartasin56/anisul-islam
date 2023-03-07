@@ -1,0 +1,14 @@
+#section1{
+    background-color: green;
+    float: left;
+}
+#section2{
+    background-color: orange;
+    float: right;
+}
+#clear-div{
+    clear: both;
+}
+#section3{
+    background-color: yellow;
+}

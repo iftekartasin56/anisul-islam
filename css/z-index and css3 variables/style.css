@@ -1,0 +1,28 @@
+:root{
+    --primary-color: tomato;
+    --secondary-color: orange;
+}
+
+div{
+    width: 250px;
+    height: 250px;
+}
+.div1{
+    background: red;
+    background-color: var(--secondary-color, );
+    position: absolute;
+    z-index: 1;
+}
+.div2{
+    background: black;
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
+@media screen and(max-width: 600px){
+    :root {
+        --primary-color: black;
+        --secondary-color: pink;
+    }
+}

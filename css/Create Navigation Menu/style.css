@@ -1,0 +1,23 @@
+#nav-menu{
+    width: 600px;
+    height: 100px;
+    background-color: rgb(35, 35, 33);
+    margin: 0 auto;
+}
+#nav-menu ul{
+
+}
+#nav-menu ul li{
+    list-style-type: none;
+    margin: 20px;
+    float: left;
+}
+#nav-menu ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: whitesmoke;
+    cursor: crosshair;
+} 
+#nav-menu ul li a:hover{
+    text-decoration: underline;
+}
